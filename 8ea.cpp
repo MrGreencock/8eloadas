@@ -11,4 +11,10 @@ int main() {
        int a;
        cin >> a;
     }
+
+   double pi = 3.1415926535;
+   cout << pi << endl;
+   cout << setw(10) << pi << endl;
+   cout << setprecision(4) << pi << endl;
+   return 0;
 }
